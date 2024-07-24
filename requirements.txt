@@ -1,0 +1,14 @@
+backports.tarfile==1.2.0
+env-yaml==0.0.3
+envyaml==1.10.211231
+importlib-metadata==8.0.0
+importlib-resources==6.4.0
+ipykernel==6.29.4
+jaraco.text==3.12.1
+openai==1.35.3
+ordered-set==4.1.0
+pandas==2.2.2
+pip-chill==1.0.3
+pypdf2==3.0.1
+python-dotenv==1.0.1
+tomli==2.0.1
