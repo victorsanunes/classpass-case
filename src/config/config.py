@@ -6,12 +6,12 @@ from pathlib import Path
 
 _current_dir = os.path.dirname(__file__)
 
-load_dotenv(os.path.join(_current_dir, "../../../.env"))
+load_dotenv(os.path.join(_current_dir, "../../.env"))
 CONFIG = EnvYAML(os.path.join(_current_dir, "config.yaml"))
 
 # Directories
 SRC_PATH = Path(__file__).resolve().parent
-ROOT_PATH = SRC_PATH.parent.parent.parent
+ROOT_PATH = SRC_PATH.parent.parent
 # DATA PATHS
 DATA_PATH = ROOT_PATH / 'data'
 RAW_DATA_PATH = DATA_PATH / 'raw'
