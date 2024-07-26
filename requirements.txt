@@ -6,9 +6,12 @@ importlib-resources==6.4.0
 ipykernel==6.29.4
 jaraco.text==3.12.1
 openai==1.35.3
+openpyxl==3.1.5
 ordered-set==4.1.0
-pandas==2.2.2
 pip-chill==1.0.3
+plotnine==0.13.6
+pygam==0.9.1
 pypdf2==3.0.1
 python-dotenv==1.0.1
+seaborn==0.13.2
 tomli==2.0.1
